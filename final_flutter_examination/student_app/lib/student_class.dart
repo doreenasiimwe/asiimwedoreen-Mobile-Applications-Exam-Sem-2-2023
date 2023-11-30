@@ -1,14 +1,14 @@
 Class Student{
-  String student_name;
-  int student_age;
+  String _name;
+  int _age;
 
-  List<double> grades;
+  List<double> ;
 
   // Constructor
-  Student(String name, int age, List<double> grades) {
-    this.name = name;
-    this.age = age;
-    this.grades = grades;
+  Student(String _name, int _age, List<double> _grades) {
+    this._name = _name;
+    this._age = _age;
+    this._grades = _grades;
   }
 }
 
